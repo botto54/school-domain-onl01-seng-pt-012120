@@ -2,19 +2,19 @@
 class School
   # attr_accessor :roster
   
-  def initialize(roster)
-    @roster = roster
-  end
-  
-  def add_student
-
-  end
-  
-  def grade
+  def school.roster
     
   end
   
-  def sort
+  def school.add_student
+
+  end
+  
+  def school.grade
+    
+  end
+  
+  def school.sort
     
   end
   
