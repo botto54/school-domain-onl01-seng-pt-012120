@@ -7,19 +7,19 @@ class School
     @roster = roster
   end
   
-  def @school.roster
+  def roster
     
   end
   
-  def @school.add_student
+  def add_student
 
   end
   
-  def @school.grade
+  def grade
     
   end
   
-  def @school.sort
+  def sort
     
   end
   
