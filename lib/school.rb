@@ -1,6 +1,6 @@
 # code here!
 class School
-  school=School.new("Bayside High School")
+  school = School.new("Bayside High School")
   # attr_accessor :roster
   
   def school.roster
