@@ -2,6 +2,8 @@
 class School
   @school = School.new()
   
+  attr_accessor :roster, :add_student
+  
   def initialize(roster)
     @roster = roster
   end
