@@ -3,8 +3,9 @@ class School
   
   attr_accessor :roster, :add_student, :school_name
   
-  def initialize()
-    @roster = roster
+  def initialize(school_name, roster)
+    @school_name = school_name
+    @roster = hash.new {}
   end
   
   def roster
