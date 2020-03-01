@@ -3,7 +3,7 @@ class School
   
   attr_accessor :roster, :add_student, :school_name
   
-  def initialize(school_name, roster)
+  def initialize(school_name)
     @school_name = school_name
     @roster = hash.new { |h, k| h[k] = [] }
   end
