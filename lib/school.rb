@@ -6,7 +6,7 @@ class School
   def initialize(school_name)
     @school_name = school_name
     @roster = Hash.new { |h, k| h[k] = [] }
-    @roster = Hash.new { |name, grade| name[grade] = [] }
+    # @roster = Hash.new { |name, grade| name[grade] = [] }
   end
   
   def roster
